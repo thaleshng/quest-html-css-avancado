@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(../images/bg-desktop.svg) center center no-repeat var(--primary-color-violet);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    padding: 60px 5.6%;
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-self: start;
+    margin-bottom: 100px;
+    min-height: 75px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    gap: 60px;
+}
+
+.hero .hero-infos {
+    max-width: 522px;
+    margin-bottom: 150px;
+}
+
+.hero .hero-infos .hero-title {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.hero .hero-infos .hero-description {
+    font-size: 1.8rem;
+    margin: 25px 0;
+    color: #fff;
+}
+
+.hero .hero-infos .btn-register {
+    margin-top: 25px;
+}
+
+.hero .hero-infos .btn-register a {
+    padding: 20px 60px;
+    font-size: 1.6rem;
+    color: var(--primary-color-violet);
+    background-color: #fff;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.hero .hero-infos .btn-register a:hover {
+    color: #fff;
+    background-color: var(--primary-color-magenta);
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.footer .social a {
+    font-size: 2rem;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-left: 18px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.footer .social a:hover {
+    color: fuchsia;
+    border-color: var(--primary-color-magenta);
+}
+
+.footer .social i {
+    width: 20px;
+    text-align: center;
+}

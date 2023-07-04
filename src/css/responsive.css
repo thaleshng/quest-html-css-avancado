@@ -1,0 +1,95 @@
+@media (max-width: 1280px) {
+
+    body {
+        padding: 5.6%;
+    }
+
+    .hero .mockup img {
+        max-width: 450px;
+    }
+
+    .hero .hero-title {
+        font-size: 3.2rem;
+    }
+
+    .hero .hero-infos {
+        margin: auto;
+
+    }
+
+    .hero .hero-description {
+        font-size: 1.6rem;
+    }
+
+    .footer .social a {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 900px) {
+    
+    body {
+        background: url(../images/bg-mobile.svg) center center no-repeat var(--primary-color-violet);
+        background-size: cover;
+        padding: 50px;
+    }
+
+    .hero {
+        display: block;
+        height: 100%;
+        text-align: center;
+    }
+
+    .hero .hero-infos {
+        text-align: center;
+    }
+
+    .hero .hero-infos .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero .hero-infos .hero-description {
+        font-size: 1.8rem;
+        line-height: 30px;
+    }
+
+    .hero .hero-infos .btn-register a {
+        padding: 20px 100px;
+    }
+
+    .hero .mockup {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .hero .mockup img {
+        width: 100%;
+    }
+
+    .footer {
+        justify-content: center;
+        padding-bottom: 80px;
+    }
+
+    .footer .social a {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        height: 100%;
+    }
+
+    .footer {
+        padding-top: 50px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    
+    .hero .hero-infos .btn-register a {
+        padding: 20px 80px;
+    }
+}
