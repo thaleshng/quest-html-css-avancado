@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
-/* font-family: 'Poppins', sans-serif; */
 
 html {
     font-size: 62.5%;
@@ -15,7 +12,7 @@ body {
     padding: 60px 5.6%;
     height: 100vh;
     max-width: 1440px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .header {
@@ -67,15 +64,19 @@ body {
 .hero .hero-infos .btn-register a:hover {
     color: #fff;
     background-color: var(--primary-color-magenta);
+    box-shadow: 0px 0px 5px black;
 }
 
 .footer {
-    display: flex;
-    justify-content: flex-end;
     margin-top: 30px;
 }
 
-.footer .social a {
+.footer .social ul {
+    display: flex;
+    justify-content: end;
+}
+
+.footer .social ul li a {
     font-size: 2rem;
     padding: 10px;
     border: 1px solid #fff;
@@ -85,12 +86,12 @@ body {
     transition: 0.3s ease-in-out;
 }
 
-.footer .social a:hover {
-    color: fuchsia;
+.footer .social ul li a:hover {
+    color: var(--primary-color-magenta);
     border-color: var(--primary-color-magenta);
 }
 
-.footer .social i {
+.footer .social ul li a i {
     width: 20px;
     text-align: center;
 }

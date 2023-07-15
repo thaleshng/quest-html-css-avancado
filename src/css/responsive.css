@@ -1,7 +1,16 @@
+@media (min-width: 1360px) {
+    .footer .social ul li a i {
+        width: 25px;
+        text-align: center;
+    }
+    
+}
+
 @media (max-width: 1280px) {
 
     body {
         padding: 5.6%;
+        height: 100%;
     }
 
     .hero .mockup img {
@@ -21,17 +30,46 @@
         font-size: 1.6rem;
     }
 
-    .footer .social a {
+    .footer .social ul li a {
         font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        height: 100vh;
+        margin: auto 0;
+    }
+    
+    .hero .mockup img {
+        max-width: 400px;
+    }
+
+    .hero .hero-infos .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero .hero-infos .hero-description {
+        font-size: 1.7rem;
     }
 }
 
 @media (max-width: 900px) {
     
     body {
-        background: url(../images/bg-mobile.svg) center center no-repeat var(--primary-color-violet);
+        background: url(../images/bg-mobile.svg)no-repeat var(--primary-color-violet);
         background-size: cover;
-        padding: 50px;
+        padding: 40px;
+        height: 100%;
+    }
+
+    .header {
+        margin-bottom: 30px;
+    }
+
+    .header img {
+        width: 40%;
+        max-width: 264px;
     }
 
     .hero {
@@ -39,9 +77,11 @@
         height: 100%;
         text-align: center;
     }
+    
 
     .hero .hero-infos {
         text-align: center;
+        margin-bottom: 100px;
     }
 
     .hero .hero-infos .hero-title {
@@ -59,7 +99,7 @@
 
     .hero .mockup {
         text-align: center;
-        margin-bottom: 100px;
+        margin-bottom: 30px;
     }
 
     .hero .mockup img {
@@ -67,11 +107,14 @@
     }
 
     .footer {
-        justify-content: center;
         padding-bottom: 80px;
     }
 
-    .footer .social a {
+    .footer .social ul {
+        justify-content: center;
+    }
+
+    .footer .social nav ul li a {
         font-size: 1.6rem;
     }
 }
@@ -79,15 +122,64 @@
 @media (max-width: 425px) {
     body {
         height: 100%;
+        background: url(../images/bg-mobile.svg) no-repeat var(--primary-color-violet);
+        background-size: 425px;
+        padding: 0px 30px;
+    }
+
+    .header {
+        margin-bottom: 30px;
+    }
+
+    .header img{
+        width: 140px;
+    }
+
+    .hero .mockup {
+        margin-bottom: 20px;
+    }
+
+    .hero .hero-infos .hero-title {
+        font-size: 2.7rem;
+    }
+
+    .hero .hero-infos .hero-description {
+        font-size: 1.8rem;
+        margin: 20px 0;
     }
 
     .footer {
-        padding-top: 50px;
+        padding-top: 10px;
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero .hero-infos .hero-title {
+        font-size: 2.8rem;
+    }
+
+    .hero .hero-infos .hero-description {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero .hero-infos .hero-title {
+        font-size: 2.6rem;
+    }
+
+    .hero .hero-infos .hero-description {
+        font-size: 1.5rem;
     }
 }
 
 
 @media (max-width: 320px) {
+    body {
+        height: 100%;
+        background: url(../images/bg-mobile.svg) no-repeat var(--primary-color-violet);
+    }
     
     .hero .hero-infos .btn-register a {
         padding: 20px 80px;

@@ -9,6 +9,10 @@ a {
     color: black;
 }
 
+ul {
+    list-style-type: none;
+}
+
 button {
     border-style: none;
     background: none;
