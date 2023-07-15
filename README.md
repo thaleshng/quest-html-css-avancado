@@ -83,26 +83,27 @@ HTML + CSS Avançado</h3>
 
 <h3>Pontuações:</h3>
 <ol>
-    <li>Nesse trecho de código, as suas duas tags de imagem foram devidamente preenchidas - seus atributos alt=”” estão preenchidos:
+    <li>Nesse trecho de código, as suas duas tags de imagem foram devidamente preenchidas - seus atributos alt=”” estão preenchidos:<br>
     <img src="./src/images/pontuacao-1.jpg"><img>
     Preencher esse atributo "alt" das tags "img" é uma prática importante para melhorar a acessibilidade, SEO, usabilidade e navegação em dispositivos móveis de uma página da web.</li><br>
-    <li>Considerando que aqui é um espaço reservado apenas a itens muito semelhantes, poderia ter criado uma lista (ul) e preenchido ela com três itens (li):
-    <img src="./src/images/pontuacao-2.1.jpg"><img>
-    Poderia também ter envolvido tudo numa tag Nav pra aumentar a semântica da estrutura, algo como isso:
-    <img src="./src/images/pontuacao-2.2.jpg"><img>
+    <li>Considerando que aqui é um espaço reservado apenas a itens muito semelhantes, poderia ter criado uma lista (ul) e preenchido ela com três itens (li):<br>
+    <img src="./src/images/pontuacao-2.1.jpg"><img><br>
+    Poderia também ter envolvido tudo numa tag Nav pra aumentar a semântica da estrutura, algo como isso:<br>
+    <img src="./src/images/pontuacao-2.2.jpg"><img><br>
     <strong>OBS: Certifique-se de manter os itens da lista com <span style=color:#FF68FF;>tags âncora</span>, já que é uma lista de <span style=color:#6BA950>ícones</span> que levam o usuário para outras redes sociais.</strong></li><br>
-    <li>Em <strong>resoluções maiores</strong> o seu conteúdo permanece muito bem alinhado horizontalmente, verticalmente e com todos os elementos proporcionalmente maiores:
-    <img src="./src/images/pontuacao-3.jpg"><img>Ficou realmente muito bom, parabéns!</li><br>
+    <li>Em <strong>resoluções maiores</strong> o seu conteúdo permanece muito bem alinhado horizontalmente, verticalmente e com todos os elementos proporcionalmente maiores:<br>
+    <img src="./src/images/pontuacao-3.jpg"><img><br>
+    Ficou realmente muito bom, parabéns!</li><br>
     <li>Em <strong>resoluções menores</strong>, o seu conteúdo <strong>se adapta</strong> para ser bem renderizado:<br>
-    <img src="./src/images/pontuacao-4.1.jpg" width="45%"><img><---><img src="./src/images/pontuacao-4.2.jpg" width="45%"><img>
+    <img src="./src/images/pontuacao-4.1.jpg" width="60%"><img><---><img src="./src/images/pontuacao-4.2.jpg" width="60%"><img><br>
     O resultado final deveria ficar o mais próximo possível com a imagem da direita.<br>
     Poderia apenas ter trocado o background pela imagem mobile, ela já está no seu projeto, se chama <strong>bg-mobile.svg</strong>, se não me engano.<br>
     Seria interessante ajustar o tamanho e posicionamento dos textos.</li><br>
     <li>Um dos desafios importantes dessa Quest era fazer com que o usuário pudesse visualizar os estados de foco nos elementos interativos da página - <strong>Botão de Registro + Ícones de Redes Sociais.</strong><br>
     Em seu projeto, os elementos <strong>estão semelhantes</strong> ao que foi pedido. Poderia, talvez, ajustar um pouco o tamanho e colocar uma sombra no botão de registro. Outro ponto que merece atenção são as bordinhas dos ícones, elas estão ovais e com cores muito fortes:<br>
-    <img src="./src/images/pontuacao-5.1.jpg" width="50%"><img> <img src="./src/images/pontuacao-5.2.jpg"><img>
+    <img src="./src/images/pontuacao-5.1.jpg" width="60%"><img> <img src="./src/images/pontuacao-5.2.jpg"><img><br>
     A solução deveria ficar o mais próxima possível desse resultado aqui:
-    <img src="./src/images/pontuacao-5.3.jpg"><img>
+    <img src="./src/images/pontuacao-5.3.jpg"><img><br>
     Só te confortando aqui porque se trata de um ajuste sutil, o qual não tem um impacto tão grande assim no resultado final. No entanto, como Dev Frontend/FullStack, se você se preocupar um pouco mais com aspectos estéticos minuciosos, lá na frente, com certeza você vai ser um profissional destaque no mercado.</li><br>
     <li>Gostei muito da separação de responsabilidades em diferentes arquivos CSS:<br>
     <img src="./src/images/pontuacao-6.1.jpg"><img><br>
