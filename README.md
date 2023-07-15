@@ -6,12 +6,12 @@
 
 <div>
     <h3 align="center"><strong>Desktop View</strong><h3>
-    <a href="https://thaleshng.github.io/quest-html-css-avancado/" target="_blank"><img src="./src/images/Desktop.png" target="_blank"></a> 
+    <a href="https://thaleshng.github.io/quest-html-css-avancado/" target="_blank"><img src="./src/images/desktop-view.png" target="_blank"></a> 
 </div>
 
 <div align="center">
     <h3 align="center"><strong>Mobile View</strong><h3>
-    <a href="https://thaleshng.github.io/quest-html-css-avancado/" target="_blank"><img src="./src/images/Mobile.png" target="_blank"></a> 
+    <a href="https://thaleshng.github.io/quest-html-css-avancado/" target="_blank"><img src="./src/images/mobile-view.png" target="_blank"></a> 
 </div>
 
 <div align="center">
@@ -29,9 +29,9 @@
 <div align="center">
     <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a> •
     <a href="#finalidade-do-projeto">Finalidade do Projeto</a> •
+    <a href="#feedback">Feedback</a> •
     <a href="#dificuldades-encontradas-e-aprendizados">Dificuldades Encontradas e Aprendizados</a> •
-    <a href="#como-ter-acesso-ao-código">Como ter acesso ao Código</a> •
-    <a href="#feedback">Feecback</a>
+    <a href="#como-ter-acesso-ao-código">Como ter acesso ao Código</a>
 </div>
 
 <br>
@@ -57,17 +57,6 @@
 <p>A premissa do desafio em questão foi avaliar como o aluno do curso faria uma Landing Page de uma Mídia Social Fictícia (Huddle), usando as ferramentas ensinadas no curso.
 <p>Finalizado o projeto, os professores do curso dariam um feedback do código, para testar o nível de aprendizado de cada aluno e corrigir o código para que os alunos possam melhorar suas maneiras de codar.
 </p> 
-<br>
-<br>
-<br>
-<br>
-
-<h2 align="center">Dificuldades Encontradas e Aprendizados</h2>
-<br>
-
-<p> A Principal dificuldade encontrada foi parecida com a dificuldade encontrada no projeto do Componente NFT feito anteriormente <a href="https://github.com/thaleshng/nft-component">(https://github.com/thaleshng/nft-component)</a>, visto que, era um desafio do Frontend Mentor e o valor dos espaçamentos dos elementos (margin e padding) não serem dados previamente, e por possuirem mais elementos que o projeto anterior citado acima, foi mais difícil 'descobrir' os valores desses espaçamentos, além de estar fazendo o projeto em um tela menor que a tela 'base' do design do projeto apresentado.</p>
-<p> Foi usado o '<strong>PerfectPixel</strong>' e o '<strong>LightShot</strong>' para 'descobrir' os valores dos espaçamentos, porém, por conta da tela ser menor houve uma dificuldade maior de 'replicar' o projeto para outras dimensões de telas, sendo assim, necessitando no meu ponto de vista, fazer um arquivo maior de responsividade englobando essas outras dimensões de telas.
-<p>Foram usadas tags mais semânticas no HTML melhorando o SEO (Search Engine Optimization), para aumentar as chances do site ser encontrado pelos usuários. <br>Além disso, as tags semânticas também ajudam na acessibilidade para que leitores de tela e outros dispositivos assistivos entendam melhor a estrutura do conteúdo.</p>
 <br>
 <br>
 <br>
@@ -128,6 +117,22 @@ Como desafio final, tenta refatorar esse seu código usando essas dicas, com a p
 </p>
 
 <h3>~ Boa sorte, Thales! ☕"</h3>
+<br>
+<br>
+<br>
+<br>
+
+<h2 align="center">Dificuldades Encontradas e Aprendizados</h2>
+<br>
+
+<p> A Principal dificuldade encontrada foi parecida com a dificuldade encontrada no projeto do Componente NFT feito anteriormente <a href="https://github.com/thaleshng/nft-component">(https://github.com/thaleshng/nft-component)</a>, visto que, era um desafio do Frontend Mentor e o valor dos espaçamentos dos elementos (margin e padding) não serem dados previamente, e por possuirem mais elementos que o projeto anterior citado acima, foi mais difícil 'descobrir' os valores desses espaçamentos, além de estar fazendo o projeto em um tela menor que a tela 'base' do design do projeto apresentado.</p>
+<p> Foi usado o '<strong>PerfectPixel</strong>' e o '<strong>LightShot</strong>' para 'descobrir' os valores dos espaçamentos, porém, por conta da tela ser menor houve uma dificuldade maior de 'replicar' o projeto para outras dimensões de telas, sendo assim, necessitando no meu ponto de vista, fazer um arquivo maior de responsividade englobando essas outras dimensões de telas.
+<p>Foram usadas tags mais semânticas no HTML melhorando o SEO (Search Engine Optimization), para aumentar as chances do site ser encontrado pelos usuários. <br>Além disso, as tags semânticas também ajudam na acessibilidade para que leitores de tela e outros dispositivos assistivos entendam melhor a estrutura do conteúdo.</p>
+<p>Após receber o Feedback, busquei refatorar o código seguindo as pontuações que foram passadas no mesmo, acredito ter conseguido um bom resultado.</p>
+<br>
+<br>
+<br>
+<br>
 
 <h2 align="center">Como ter acesso ao Código<h2>
 <br>
